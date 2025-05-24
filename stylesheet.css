@@ -1,7 +1,9 @@
 header {
     background-color: #ffffff;
-    height: 200px;
-    margin: -8px;
+    height: 160px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -10,12 +12,12 @@ header {
   .header_message {
     color: #8a2be2;
     font-size: 15px;
-    margin: 145px 10px
+    margin: 138px 10px
   }
  
   .header_img {
     height: 190px;
-    margin: 5px 10px;
+    margin: 0px 10px;
     text-align: left;
   }
 
@@ -84,7 +86,9 @@ body {
 footer {
     background-color: #ba55d3;
     height: 110px;
-    margin: -8px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     position: relative;
   }
   
