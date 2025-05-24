@@ -1,6 +1,6 @@
 header {
     background-color: #ffffff;
-    height: 160px;
+    height: 163px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,7 +12,7 @@ header {
   .header_message {
     color: #8a2be2;
     font-size: 15px;
-    margin: 138px 10px
+    align-self: flex-end
   }
  
   .header_img {
@@ -76,12 +76,6 @@ body {
     margin: 30px 0px 50px 0px;
     text-align: center;
   }
-
-  .body a {
-    color: #666666;
-    margin: 30px 0px 50px 0px;
-    text-align: center;
-  }
   
 footer {
     background-color: #ba55d3;
@@ -90,11 +84,6 @@ footer {
     padding: 0;
     box-sizing: border-box;
     position: relative;
-  }
-  
-  .footer_img {
-    height: 50px;
-    margin: 5px 5px;
   }
   
   small {
