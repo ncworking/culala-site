@@ -1,6 +1,6 @@
 header {
     background-color: #ffffff;
-    height: 163px;
+    height: 150px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,12 +12,13 @@ header {
   .header_message {
     color: #8a2be2;
     font-size: 15px;
+    margin: 6px;
     align-self: flex-end
   }
  
   .header_img {
-    height: 190px;
-    margin: 0px 10px;
+    height: 150px;
+    margin: 0px 0px;
     text-align: left;
   }
 
@@ -95,6 +96,26 @@ footer {
   }
 
 @media (max-width: 600px) {
+
+  header {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .header_img {
+    height: 100px;
+    margin: 1px;
+    align-items: flex-start;
+  }
+
+  .header_message {
+    font-size: 10px;
+    margin: 2px 0;
+    text-align: center;
+    width: 100%;
+    display: none;
+      }
+
   .menu {
     flex-direction: column;
     height: auto;
@@ -102,32 +123,20 @@ footer {
   }
 
   .menu a {
-    margin: 5px 0;
-    font-size: 18px;
+    margin: 3px 0;
+    font-size: 15px;
     font-weight: 400;
   }
 
-  header {
-    flex-direction: column;
-    height: auto;
-    align-items: center;
+  h1 {
+    font-size: 20px;
   }
 
-  .header_img {
-    height: 140px;
-    margin: 10px;
-  }
-
-  .header_message {
-    font-size: 14px;
-    margin: 10px 0;
-    text-align: center;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-
-  h2, p {
+  h2 {
     padding: 0 10px;
   }
+
+  p {padding: 0 10px;
+    font-size: 10px;
   }
+}
