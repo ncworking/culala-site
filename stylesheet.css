@@ -1,3 +1,7 @@
+body {
+    background-color: #ffffff;
+  }
+
 header {
     background-color: #ffffff;
     height: 150px;
@@ -20,6 +24,10 @@ header {
     height: 150px;
     margin: 0px 0px;
     text-align: left;
+  }
+
+  .header_img:hover{
+    height: 153px;
   }
 
 .menu {
@@ -46,9 +54,11 @@ header {
     text-decoration: underline;
   }
 
-body {
-    background-color: #ffffff;
-  }
+main {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
   
   h1 {
     font-family: "Hachi Maru Pop", cursive;
@@ -71,7 +81,74 @@ body {
     margin: 20px 0px;
     text-align: center;
   }
+
+  h3 {
+    background-color: #c455d3;
+    height: 300px;
+    width: 250px;
+    align-self: flex-start;
+    font-family: "Kiwi Maru", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: #ffffff;
+    margin:20px 20px;
+    padding: 8px;
+    text-align: center;
+    text-shadow: 
+      0 0 2px #ffffff,
+      0.2px 0 #ce97d5,
+      -0.2px 0 #ce97d5,
+      0 0.2px #ce97d5,
+      0 -0.2px #ce97d5;
+  }
+
+  img{
+    justify-content: center;
+  }
+
+    .gallery_img {
+      margin: 5px;
+      width: 225px;
+    }
+
+    .outline{
+      color: #ffffff;
+      font-size: 10px;
+      text-shadow: none;
+      margin: 1px 12px 2px 12px;
+      text-align: left;    
+    }
+
+    .outline a{
+      color: #ffffff;
+      text-decoration: underline;
+    }
+
+    .outline a:hover{
+      color: #ce97d5;
+    }
   
+
+    .blog_link {
+      display: block;
+      background: #be87cc;
+      color: #ffffff;
+      padding: 3px 10px;
+      text-decoration: none;
+      border-radius: 3px;
+      font-weight: bold;
+      transition: background 0.3s;
+      margin-top: 8px;
+      margin-left: auto;
+      margin-right: 0;
+      width: fit-content;
+    }
+    
+    .blog_link:hover {
+      background: #ae60c1;
+    }
+
   p {
     color: #666666;
     margin: 30px 0px 50px 0px;
@@ -108,6 +185,10 @@ footer {
     align-items: flex-start;
   }
 
+  .header_img:hover{
+    height: 100px;
+  }
+
   .header_message {
     font-size: 10px;
     margin: 2px 0;
@@ -135,6 +216,26 @@ footer {
   h2 {
     padding: 0 10px;
   }
+
+  h3 {
+    flex-direction: column;
+    height:auto;
+    width: auto;
+    align-items: center;
+  }
+
+    .gallery_img {
+      margin: 3px 0;
+      width: 225px;
+    }
+
+    .outline{
+      color: #ffffff;
+      font-size: 10px;
+      text-shadow: none;
+      margin: 1px 20% 2px 20%;
+      text-align: center;    
+    }
 
   p {padding: 0 10px;
     font-size: 10px;
