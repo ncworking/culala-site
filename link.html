@@ -4,9 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <style>@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Hachi+Maru+Pop&display=swap');</style>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Hachi+Maru+Pop&family=Kiwi+Maru:wght@300;400;500&display=swap');
+    </style>
     <title>Culala</title>
-    <link rel="stylesheet" href="stylesheet.css" />
+    <script>
+      const css = document.createElement('link');
+      const today = new Date().toISOString().slice(0,10).replace(/-/g, '');
+      css.rel = 'stylesheet';
+      css.href = 'stylesheet.css?v=' + today;
+      document.head.appendChild(css);
+    </script>
   </head>
 
   <body>
@@ -31,12 +39,20 @@
 
     <main class="main">
       <h2>Link</h2>
-      <a href="https://culala-note.blog.jp/" target="_blank" rel="noreferrer noopener">blog</a>
+      <div class="link_area">
+        <a href="https://culala-note.blog.jp/" target="_blank" rel="noreferrer noopener">Culalaのらくがき帳</a><br>
+        なんでもブログです。
+      </div>
+      <div class="link_area">
+        <a href="https://qiita.com/ncworking" target="_blank" rel="noreferrer noopener">Qiita</a><br>
+        IT入門中の記録用ブログです。
+      </div>
     </main>
 
     <footer>
       <div>
-        <small>&copy; 2025 Culala.</small>
+        <small>※表示崩れや長期間更新が見られない場合、キャッシュの削除をしてみてください。<br>
+          &copy; 2025 Culala.</small>
       </div>
     </footer>
   </body>

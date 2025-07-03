@@ -149,6 +149,24 @@ main {
       background: #ae60c1;
     }
 
+    .link_area {
+      color:#666666;
+      margin: 10px 0px 0px 0px;
+      text-align: center;
+    }
+
+    .link_area a {
+      font-family: "Kiwi Maru", serif;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 20px;
+      color:#BA55d3;
+    }
+
+    .link_area a:hover{
+      color: #8a2be2;
+    }
+
   p {
     color: #666666;
     margin: 30px 0px 50px 0px;
