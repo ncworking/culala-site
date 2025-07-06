@@ -1,0 +1,261 @@
+body {
+    background-color: #ffffff;
+  }
+
+header {
+    background-color: #ffffff;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .header_message {
+    color: #8a2be2;
+    font-size: 15px;
+    margin: 6px;
+    align-self: flex-end
+  }
+ 
+  .header_img {
+    height: 150px;
+    margin: 0px 0px;
+    text-align: left;
+  }
+
+  .header_img:hover{
+    height: 153px;
+  }
+
+.menu {
+    background-color: #BA55d3;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+  }
+
+  .menu a {
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 15px 15px;
+    text-decoration: none;
+  }
+
+  .menu a:hover {
+    text-decoration: underline;
+  }
+
+main {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+  
+  h1 {
+    font-family: "Hachi Maru Pop", cursive;
+    font-weight: 400;
+    font-size: 28px;
+    font-style: normal;
+    color: #555555;
+    margin: 20px 0px;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    font-size: 32px;
+    color: #555555;
+    margin: 20px 0px;
+    text-align: center;
+  }
+
+  h3 {
+    background-color: #c455d3;
+    height: 300px;
+    width: 250px;
+    align-self: flex-start;
+    font-family: "Kiwi Maru", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: #ffffff;
+    margin:20px 20px;
+    padding: 8px;
+    text-align: center;
+    text-shadow: 
+      0 0 2px #ffffff,
+      0.2px 0 #ce97d5,
+      -0.2px 0 #ce97d5,
+      0 0.2px #ce97d5,
+      0 -0.2px #ce97d5;
+  }
+
+  img{
+    justify-content: center;
+  }
+
+    .gallery_img {
+      margin: 5px;
+      width: 225px;
+    }
+
+    .outline{
+      color: #ffffff;
+      font-size: 10px;
+      text-shadow: none;
+      margin: 1px 12px 2px 12px;
+      text-align: left;    
+    }
+
+    .outline a{
+      color: #ffffff;
+      text-decoration: underline;
+    }
+
+    .outline a:hover{
+      color: #ce97d5;
+    }
+  
+
+    .blog_link {
+      display: block;
+      background: #be87cc;
+      color: #ffffff;
+      padding: 3px 10px;
+      text-decoration: none;
+      border-radius: 3px;
+      font-weight: bold;
+      transition: background 0.3s;
+      margin-top: 8px;
+      margin-left: auto;
+      margin-right: 0;
+      width: fit-content;
+    }
+    
+    .blog_link:hover {
+      background: #ae60c1;
+    }
+
+    .link_area {
+      color:#666666;
+      margin: 10px 0px 0px 0px;
+      text-align: center;
+    }
+
+    .link_area a {
+      font-family: "Kiwi Maru", serif;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 20px;
+      color:#BA55d3;
+    }
+
+    .link_area a:hover{
+      color: #8a2be2;
+    }
+
+  p {
+    color: #666666;
+    margin: 30px 0px 50px 0px;
+    text-align: center;
+  }
+  
+footer {
+    background-color: #ba55d3;
+    height: 110px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  small {
+    color: #ffffff;
+    margin: 15px 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+
+@media (max-width: 600px) {
+
+  header {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .header_img {
+    height: 100px;
+    margin: 1px;
+    align-items: flex-start;
+  }
+
+  .header_img:hover{
+    height: 100px;
+  }
+
+  .header_message {
+    font-size: 10px;
+    margin: 2px 0;
+    text-align: center;
+    width: 100%;
+    display: none;
+      }
+
+  .menu {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+
+  .menu a {
+    margin: 3px 0;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    padding: 0 10px;
+  }
+
+  h3 {
+    flex-direction: column;
+    height:auto;
+    width: auto;
+    align-items: center;
+  }
+
+    .gallery_img {
+      margin: 3px 0;
+      width: 225px;
+    }
+
+    .outline{
+      color: #ffffff;
+      font-size: 10px;
+      text-shadow: none;
+      margin: 1px 20% 2px 20%;
+      text-align: center;    
+    }
+
+  p {padding: 0 10px;
+    font-size: 10px;
+  }
+}
